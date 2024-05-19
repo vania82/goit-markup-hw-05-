@@ -396,24 +396,25 @@
           </a>
         </li>
        </ul>
-     </div>
+       </div>
+      <div class="form-email">
+        <p class="text-subscribe">Subscribe</p>
+        <form class="form" name="subscribe">
+          <label class="label-footer">
+            <input class="footer-input" type="email" name="email" placeholder="E-mail" />
+          </label>
+          <button class="button-footer" type="button">Subscribe
+            <svg class="icon-form-footer" width="24" height="24">
+              <use href="./images/icons.svg#icon-icon-send-2-1"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>   
-    <div class="form-email">
-      <p class="text-subscribe">Subscribe</p>
-      <form class="form" name="subscribe">
-        <label class="label-footer">
-          <input class="footer-input" type="email" name="email" placeholder="E-mail"/>
-        </label>
-        <button class="button-footer" type="button">Subscribe
-          <svg class="icon-form-footer" width="24" height="24">
-            <use href="./images/icons.svg#icon-icon-send-2-1"></use>
-          </svg>
-        </button>
-      </form>
-    </div>
+   
   </footer>
 <!--Modal-->
-  <div class="backdrop">
+  <div class="backdrop is-open">
     <div class="modal">
       <button  type="button" class="modal-close">
         <svg class="modal-close-icon" width="8" height="8">
@@ -424,13 +425,13 @@
       <form class="modal-form">
         <div class="modal-f">
           <label for="user-name" class="form-label">Name</label>
-          <div class="modal-input modal-input-name">
+          <div class="modal-input">
             <input type="text"
-             name="user-name" 
+                name="user-name" 
               class="form-input"
               placeholder=""
               id="user-name" />
-            <svg class="modal-icon  modal-icon-name" width="18" height="24">
+            <svg class="modal-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-Vector-4-1"></use>
             </svg>
           </div>
@@ -466,9 +467,7 @@
 
         <div class="modal-f">
           <label for="user-comment" class="form-label">Comment</label>
-          <div class="modal-textarea">
-            <textarea  name="user-comment" id="user-comment" class="textarea-text" placeholder="Text input"></textarea> 
-          </div>
+          <textarea  name="user-comment" id="user-comment" class="textarea-text" placeholder="Text input"></textarea>  
         </div>
         <div class="container-checkbox">
           <input class="form-checkbox visually-hidden" 
