@@ -607,7 +607,7 @@ button:focus {
     width: 264px;
     height: 40px;
     font-size: 12px;
-    line-height: 2px;
+    line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
     background-color: transparent;
@@ -747,7 +747,7 @@ button:focus {
 .modal-f {
     display: flex;
     flex-direction: column;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     border-radius: 4px;
     background-color: transparent;
     
@@ -771,7 +771,6 @@ button:focus {
     border: 1px solid #4d5ae5;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    height: 40px;
     display: flex;
     flex-direction: column;
     background-color: transparent;
@@ -796,7 +795,7 @@ button:focus {
 }
 
 .form-input:focus {
-    border-color: #4D5AE5;
+   fill: #4D5AE5;
 }
 
 .modal-icon {
@@ -905,7 +904,7 @@ button:focus {
   
 }
 
-.form-checkbox:checked + label-checkbox > span-check {
+.form-checkbox:checked + label > span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
