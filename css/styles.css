@@ -754,11 +754,6 @@ p {
 
 }
 
-.modal-taxtarea {
-    margin-bottom: 16px;
-
-}
-
 .form-label {
     display: block;
     line-height: 1.17;
@@ -831,8 +826,7 @@ p {
 }
 
 .modal-textarea {
-    width: 360px;
-    height: 138px;
+    margin-bottom: 16px;
 }
 
 .textarea-text {
