@@ -213,7 +213,7 @@ p {
 }
 
 .button:hover,
-button:focus {
+ button:focus {
 
     background-color: #404BBF;
 }
@@ -754,6 +754,11 @@ button:focus {
 
 }
 
+.modal-taxtarea {
+    margin-bottom: 16px;
+
+}
+
 .form-label {
     display: block;
     line-height: 1.17;
@@ -768,13 +773,7 @@ button:focus {
 
 .modal-input {
     position: relative;
-    border: 1px solid #4d5ae5;
-    border-radius: 4px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-
+    
 }
 
 .modal-input-name {
@@ -795,11 +794,15 @@ button:focus {
 }
 
 .form-input:focus {
-   fill: #4D5AE5;
+   border-color: #4D5AE5;
 }
 
+.form-input:focus + .modal-icon {
+    fill: #4d5ae5;
+
+}
 .modal-icon {
-    fill:#8e8f99;
+    fill:#2E2F42;
     position: absolute;
     left: 16px;
     top: 50%;
